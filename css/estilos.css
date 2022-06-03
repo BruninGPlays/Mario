@@ -1,0 +1,59 @@
+@font-face {
+
+    font-family:mario-title;
+    src:url('SuperMario256.ttf');
+
+}
+@font-face {
+
+    font-family:mario-main;
+    src:url('New\ Super\ Mario\ Font\ U.ttf');
+}
+
+:root {
+
+    --fonte-titulo: mario-title;
+    --fonte-texto: mario-main;
+}
+div{
+    text-align: center;
+}
+
+h1{
+    font-family:var(--fonte-titulo);
+    text-align: center;
+    font-size: 60px;
+    color:	#f04545;
+}
+h2{
+    font-family:var(--fonte-titulo);
+    text-align:center;
+    font-size:45px;
+    color:#d4d730;
+
+}
+ul{
+    margin-left:60px;
+    font-family: var(--fonte-texto);
+    font-size:23px;
+    color:	#d4d730;
+    
+}
+
+a{
+    color:	#d4d730;
+}
+
+p{
+    font-family:var(--fonte-texto);
+    text-align: center;
+    font-size: 24px ;
+    color:#F4F3F4;
+}
+img{
+    height: 425px; 
+}
+body{
+    background-color:#3e4ef0;
+}
+
